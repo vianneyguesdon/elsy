@@ -1,0 +1,24 @@
+.box:nth-child(even) {
+  background: #E7E6F7;
+}
+
+.box:nth-child(odd) {
+  background: #BFD7EA;
+}
+
+.box {
+  height: 225px;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.rc-slider {
+  margin-top: 15px;
+}
+
+
+
