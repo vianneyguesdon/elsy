@@ -9,11 +9,18 @@ class Weather extends React.Component {
     return (
       <div className="box col-md-3 col-6">
         <p>Weather</p>
-        <Icon name={"wb_sunny"} style={{
-          fontSize:100, 
-          color:"yellow"
-        }}/>
-        <Slider min={this.props.min} max={this.props.max} value={this.props.temperature} onChange={(val) => this.props.onChangeFn(val)}/>
+        <Icon 
+          name={"wb_sunny"} 
+          style=  {{
+            fontSize:100, 
+            color:"yellow"}}
+        />
+        <Slider 
+          min={this.props.min} 
+          max={this.props.max} 
+          value={this.props.temperature} 
+          onChange={(val) => this.props.onChangeFn(val)}
+        />
         <p>{this.props.temperature}°C</p>
       </div>
     )

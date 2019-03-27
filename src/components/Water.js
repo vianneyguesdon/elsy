@@ -6,12 +6,14 @@ class Water extends React.Component {
     return(
       <div className="box col-md-3 col-6">
         <p>Water</p>
-        <Icon name={"local_drink"} style={{
-          fontSize:100, 
-          color:"blue"
-        }}/>
+        <Icon 
+          name={"local_drink"} 
+          style={{
+            fontSize:100, 
+            color:"blue"}}
+        />
         <p>Aujourd'hui tu dois boire</p>
-        <h3>{this.props.water}L d'eau !</h3>
+        <h3>{this.props.calculateWaterFn}L d'eau !</h3>
       </div>
     )
   }
