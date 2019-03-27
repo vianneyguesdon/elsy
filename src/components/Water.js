@@ -12,8 +12,8 @@ class Water extends React.Component {
             fontSize:100, 
             color:"blue"}}
         />
-        <p>Aujourd'hui tu dois boire</p>
-        <h3>{this.props.calculateWaterFn}L d'eau !</h3>
+        <p>Today you should drink</p>
+        <h3>{this.props.calculateWaterFn} L!</h3>
       </div>
     )
   }
